@@ -32,5 +32,5 @@ Write the following terminal commands to do the following (assume that `instruct
 3. Find all files inside the `Desktop/views` folder that have the name `data` somewhere in their filename. `find ~/Desktop/views -name "*data*" `
 4. Inside of the `instructors.txt` file, output the number of times the word "Elie" appears. `grep -c "Elie" instructors.txt`
 4. Inside of the `instructors.txt` file, list all matches for any full word that starts with a capital "P." `grep -w "P.*" instructors.txt`
-5. Inside of the `instructors.txt` file, list all the line numbers for any full word that starts with a "z" (it should match regardless of upper or lower case). `grep -ni "z.*" instructors.txt`
+5. Inside of the `instructors.txt` file, list all the line numbers for any full word that starts with a "z" (it should match regardless of upper or lower case). `grep -wni "z.*" instructors.txt`
 
